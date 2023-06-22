@@ -35,10 +35,12 @@ if(velocidadCamaro>velocidadMustang && velocidadCamaro>velocidadChallenger) {
     console.log ("El Challenger toma la delantera y le quedan ", (millasChallenger), "por recorrer");
 }
 
-if(millasCamaro<=0){
-console.log ("El Camaro es el ganador"
+if (millasCamaro<=0){
+console.log ("El Camaro es el ganador")
 } else if (millasMustang<=0) {
     console.log ("El Mustang es el ganador")
-} else { 
-    console.log ("El Challenger es el ganador")}
+} else {
+    console.log ("El Challenger es el ganador")
+}
+
 }

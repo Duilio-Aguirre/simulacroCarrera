@@ -26,13 +26,15 @@ millasChallenger = millasChallenger - velocidadChallenger
 
 if(velocidadCamaro>velocidadMustang && velocidadCamaro>velocidadChallenger) {
     millasCamaro -= velocidadCamaro
-    console.log ("El Camaro toma la delantera y le quedan ", (millasCamaro) , "por recorrer");
+    console.log ("El Camaro toma la delantera y le quedan ", (millasCamaro) , "millas por recorrer");
 } else if (velocidadMustang>velocidadCamaro && velocidadMustang>velocidadChallenger) {
     millasMustang -= velocidadMustang
-    console.log ("El Mustang toma la delantera y le quedan ", (millasMustang) , "por recorrer");
+    console.log ("El Mustang toma la delantera y le quedan ", (millasMustang) , "millas por recorrer");
 }else {
     millasChallenger -= velocidadChallenger
-    console.log ("El Challenger toma la delantera y le quedan ", (millasChallenger), "por recorrer");
+    console.log ("El Challenger toma la delantera y le quedan ", (millasChallenger), "millas por recorrer");
+}
+
 }
 
 if (millasCamaro<=0){
@@ -43,4 +45,4 @@ console.log ("El Camaro es el ganador")
     console.log ("El Challenger es el ganador")
 }
 
-}
+
